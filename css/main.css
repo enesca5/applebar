@@ -1,0 +1,39 @@
+ul{
+	background-color: #3a3939;
+	text-align: center;
+	height: 45px;
+	padding-top: none;
+	margin: 0px;
+}
+
+body{
+	padding: 0px;
+margin: 0px;
+}
+
+ul li{
+	display: inline-block;
+	width: 6%;
+	text-align: center; 
+}
+
+ul li a {
+	color: white;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	transition: 0.5s ease;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: grey;
+	text-decoration: none;
+}
+ul li a img {
+	height: 30px;
+	padding-bottom: none;
+	position: relative;
+	bottom: -10px;
+}
